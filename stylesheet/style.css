@@ -4,6 +4,7 @@ body{
     overflow-x: hidden;
 }
 /* =============================================================SECÇÃO 1==================================================================*/
+
 .navbar{
     background-color: aquamarine;
 }
@@ -69,6 +70,17 @@ body{
     border-radius: 45px;
     padding: 24px;
     
+}
+
+.bolinha{
+    background: #2EA4A4;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .portfpics{
