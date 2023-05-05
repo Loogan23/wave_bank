@@ -314,5 +314,91 @@ body{
 /* =============================================================SECÇÃO 4==================================================================*/
 
 
+
+    
+
+
+.bg-equip{
+    background-color: #2EA4A4
+    
+}
+
+.img-log img{
+    width: 260px;
+    height: 260px;
+    margin: 5px 200px ;
+}
+
+
+
+.img-di img{
+    width: 260px;
+    height: 260px;
+    margin:5px 200px ;
+}
+
+.img-ema img{
+    width: 260px;
+    height: 260px;
+    margin:5px 200px  ;
+}
+
+.img-vini img{
+    width: 260px;
+    height: 260px;
+    margin: 5px 200px ;
+}
+
+
+.sep{
+    margin: 0 70px;
+}
+
+
+.namelog,.namedi{
+    
+   margin: 0 210px;
+   width: 340px;
+}
+
+.namema,.namevi{
+    margin: 0 170px ;
+    width: 311px;
+}
+.centro1{
+   
+}
 /* =============================================================SECÇÃO 5==================================================================*/
 
+
+
+.imgcall img{
+    widows: 50px;
+    height: 50px;
+
+}
+
+.imglocall img{
+    widows:70px ;
+    height:56px ;
+
+}
+
+.imgtwi img{
+    widows:46px ;
+    height: 48px;
+}
+
+.imgface img{
+    widows:66px ;
+    height:48px ;
+}
+
+.imginsta img{
+    widows: 50px;
+    height: 48px;
+}
+
+.bg-ct{
+    background-color: #388E8E;
+}
