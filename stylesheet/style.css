@@ -1,59 +1,111 @@
-body {
+body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+/* =============================================================SECÇÃO 1==================================================================*/
 
 .navbar{
-    position: absolute;
-    font-family: 'Karma', serif;
+    background-color: aquamarine;
+}
+
+.imagemfundo{
     width: 100%;
+    height: 386px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
     position: absolute;
-    height: 90px;
-    background: rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 168px;
+    left: 250px;
+    top: 112px;
+}
+
+.logo{
+    
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.nome{
+    margin: 0;
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 128px;
+    line-height: 208px;
+    color: #FFFFFF;
+    display: inline-block;
+    
+
+}
+
+.servicespics{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #2EA4A4;
+}
+
+/* =============================================================SECÇÃO 2==================================================================*/
+
+.container{
+    font-family: 'Crimson Text', serif;
+}
+
+.title-names-in-box{
+    text-align: center;       
+}
+
+.namesbox{
+    background: #2EA4A4;
+    width: 20% !important; 
+    border-radius: 45px;
+    padding: 24px;
     
 }
 
-.NossosServicos{
-    position: absolute;
-    width: 180px;
-    height: 60px;
-    left: 57px;
-    top: 14px;
-    background: rgba(0, 0, 0, 0.51);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
-    font-family: 'Karma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 57px;
-    color: #FFFFFF;
+.bolinha{
+    background: #2EA4A4;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.portfpics{
+    width: 400px;
+}
+
+.bg-portf{
+    background: #CEC7C7;
+}
+
+.text-box{
+    background: #d9d9d9;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.text-center{
     text-align: center;
 }
 
-.Portfolio{
-    position: absolute;
-    width: 180px;
-    height: 60px;
-    left: 342px;
-    top: 15px;
-    background: rgba(0, 0, 0, 0.51);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
-    font-family: 'Karma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 57px;
-    color: #FFFFFF;
-    text-align: center;
+/* =============================================================SECÇÃO 3==================================================================*/
 
-    
+.sobrenost{
+    margin-top: 10px;
 }
 
 .SobreNos{
-    position: absolute;
+    
     width: 180px;
     height: 60px;
     left: 632px;
@@ -70,6 +122,23 @@ body {
     text-align: center;
 }
 
+.namesbox2{
+    background: #2EA4A4;
+    width: 20% !important; 
+    border-radius: 45px;
+    padding: 24px;
+    
+}
+.text-box2{
+    background: #d9d9d9;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.text-center2{
+    text-align: center;
+}
 
 .fundoazul {
     position: absolute;
@@ -98,21 +167,22 @@ body {
     color: #FFFFFF;
 }
 
-.container {
-    width: 100vw;;
+.container2 {
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    top: 10px;
 }
 
 .txt1{
     position: absolute;
-    width: 816px;
+    width: 50%;
     height: 558px;
     left: 542px;
     top: 2675px;
-
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
@@ -152,7 +222,7 @@ body {
     position: absolute;
     width: 390px;
     height: 234.15px;
-    left: 930px;
+    left: 840px;
     top: 3260px;
 
     background: url(../images/maosapertanod.jpg);
@@ -160,11 +230,10 @@ body {
 
 .txt2{
     position: absolute;
-    width: 761px;
+    width: 50%;
     height: 142px;
     left: 126px;
     top: 3300px;
-    
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
@@ -173,13 +242,11 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #000000;
 }
 
 .arrow2{
     box-sizing: border-box;
-
     position: absolute;
     width: 274.49px;
     height: 0px;
@@ -202,7 +269,7 @@ body {
 
 .txt3{
     position: absolute;
-    width: 790px;
+    width: 50%;
     height: 152px;
     left: 550px;
     top: 3760px;
@@ -235,7 +302,7 @@ body {
     position: absolute;
     width: 393px;
     height: 237px;
-    left: 950px;
+    left: 840px;
     top: 4110px;
 
     background: url(../images/mundo.jpg);
@@ -243,11 +310,10 @@ body {
 
 .txt5{
     position: absolute;
-    width: 740px;
+    width: 50%;
     height: 242px;
     left: 106px;
     top: 4108px;
-
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
@@ -258,40 +324,11 @@ body {
     text-align: center;
 
     color: #000000;
-=======
-.NossaEquipe{
-    position: absolute;
-    width: 180px;
-    height: 60px;
-    left: 911px;
-    top: 15px;
-    background: rgba(0, 0, 0, 0.51);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
-    font-family: 'Karma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 57px;
-    color: #FFFFFF;
-    text-align: center;
-
 }
 
-.Contatenos{
-    position: absolute;
-    width: 180px;
-    height: 60px;
-    left: 1216px;
-    top: 14px;
-    background: rgba(0, 0, 0, 0.51);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
-    font-family: 'Karma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 57px;
-    color: #FFFFFF;
-    text-align: center;
-}
+
+/* =============================================================SECÇÃO 4==================================================================*/
+
+
+/* =============================================================SECÇÃO 5==================================================================*/
+
