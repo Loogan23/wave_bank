@@ -19,8 +19,6 @@ body{
     left: 275px;
     top: 112px;
     
-    margin-right: 10px;
-    display: inline-block;
 }
 .logo{
     
@@ -136,6 +134,17 @@ body{
     left: 632px;
     top: 14px;
     background: rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 4px 4px.sobrenost{
+    margin-top: 10px;
+}
+
+.SobreNos{
+    
+    width: 180px;
+    height: 60px;
+    left: 632px;
+    top: 14px;
+    background: rgba(0, 0, 0, 0.51);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
     font-family: 'Karma';
@@ -175,17 +184,20 @@ body{
     background: #2EA4A4;
     border-radius: 45px;
 }
+
 .sobrenos {
     position: absolute;
     width: 300px;
     height: 69px;
     left: calc(50% - 300px/2 + 0.5px);
     top: calc(50% - 69px/2);
+
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 66px;
+
     color: #FFFFFF;
 }
 
@@ -198,6 +210,7 @@ body{
     margin: 10px;
     top: 10px;
 }
+
 .txt1{
     position: absolute;
     width: 50%;
@@ -212,8 +225,10 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+
     color: #000000;
 }
+
 .img1m{
     position: absolute;
     width: 390px;
@@ -222,25 +237,31 @@ body{
     top: 2827px;
     background: url("../images/pexels-fauxels-3183183novo.jpg");
 }
+
 .arrow1{
     box-sizing: border-box;
+
     position: absolute;
     width: 274.49px;
     height: 0px;
     left: calc(50% - 274.49px/2 + 7.24px);
     top: 3178px;
+
     border: 3px solid #0CF5CB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(18.7deg);
 }
+
 .img2m{
     position: absolute;
     width: 390px;
     height: 234.15px;
     left: 840px;
     top: 3260px;
+
     background: url(../images/maosapertanod.jpg);
 }
+
 .txt2{
     position: absolute;
     width: 50%;
@@ -257,6 +278,7 @@ body{
     text-align: center;
     color: #000000;
 }
+
 .arrow2{
     box-sizing: border-box;
     position: absolute;
@@ -264,6 +286,7 @@ body{
     height: 0px;
     left: calc(50% - 274.49px/2 + 7.24px);
     top: 3590px;
+
     border: 3px solid #0CF5CB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(155.22deg);
@@ -274,41 +297,51 @@ body{
     height: 235px;
     left: 112px;
     top: 3690px;
+
     background: url(../images/numeros.jpg);
 }
+
 .txt3{
     position: absolute;
     width: 50%;
     height: 152px;
     left: 550px;
     top: 3760px;
+
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
     text-align: center;
+
     color: #000000;
 }
+
 .arrow3{
     box-sizing: border-box;
+
     position: absolute;
     width: 274.49px;
     height: 0px;
     left: calc(50% - 274.49px/2 + 7.24px);
     top: 4010px;
+
     border: 3px solid #0CF5CB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(18.7deg);
 }
+
 .img4m{
     position: absolute;
     width: 393px;
     height: 237px;
     left: 840px;
     top: 4110px;
+
     background: url(../images/mundo.jpg);
 }
+
 .txt5{
     position: absolute;
     width: 50%;
@@ -323,8 +356,8 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+
     color: #000000;
-}
 /* =============================================================SECÇÃO 4==================================================================*/
 
 
