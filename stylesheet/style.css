@@ -313,6 +313,331 @@ body{
 
 /* =============================================================SECÇÃO 4==================================================================*/
 
+    
+.titeq{
+    font-size: 45pt;
+    text-align: center;
+    font-family: 'Sedan', sans-serif;
+    
+}
+
+.bg-equip{
+    background-color: #2EA4A4;
+    
+    height:1125px ;
+   
+    
+}
+
+.eqip{
+    font-family: 'Sedan', sans-serif;
+}
+
+.img-log img{
+    width: 260px;
+    height: 260px;
+    margin: 5px 200px ;
+    margin-top: 60px;
+}
+
+
+
+.img-di img{
+    width: 260px;
+    height: 260px;
+    margin:5px 200px ;
+    margin-top: 60px;
+}
+
+.img-ema img{
+    width: 260px;
+    height: 260px;
+    margin:5px 200px  ;
+    margin-top: 110px;
+}
+
+.img-vini img{
+    width: 260px;
+    height: 260px;
+    margin: 5px 200px ;
+    margin-top: 110px;
+}
+
+
+.sep{
+    
+}
+
+
+.namelog,.namedi{
+    font-family: 'Sedan', sans-serif;
+                         
+    
+    color: #FFFFFF;
+   margin: 0 210px;
+   width: 340px;
+   text-align: center;
+   
+}
+
+.namema{
+    font-family: 'Sedan', sans-serif;
+    
+    color: #FFFFFF;
+    margin: 0  210px;
+    text-align: center;
+    
+}
+.namevi{
+    font-family: 'Sedan', sans-serif;
+    color: #FFFFFF;
+    margin: 0 170px ;
+    width: 311px;
+    text-align: center;
+
+}
+.centro1{
+   
+}
+
 
 /* =============================================================SECÇÃO 5==================================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.seccont{
+
+    display: block;
+    
+    flex-direction: column;
+    padding: 50px 90px;
+    
+    margin-top: 0;
+
+
+}
+
+.contatext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.cont 
+h1{
+    
+    font-size: 3rem ;
+    color: black ;
+    margin: rem;
+    font-family: 'Sedan', sans-serif;
+    
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.imgcall{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgcall img{
+    margin-right: 40px;
+    width: 45px;
+    height: 50px;
+}
+
+.imglocall{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.imglocall p{
+    
+
+    font-size: 2rem;
+    width: 500px;
+}
+
+
+.imglocall img{
+    margin-right: 20px;
+    width:65px ;
+    height:56px ;
+
+}
+
+
+
+.imageredes{
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+
+
+
+.imgtwi img{
+    
+    width:46px ;
+    height: 48px;
+}
+
+.imgface img{
+    width:65px ;
+    height:52px ;
+}
+
+.imginsta img{
+    width: 50px;
+    height: 48px;
+}
+
+.imgtwi,.imgface,.imginsta{
+    margin-right: 90px;
+}
+
+
+
+.colun{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.formul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+
+}
+
+
+
+
+
+
+
+
+.secform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    background: #265C5C ;
+    filter: drop-shadow(10px 5px black);
+    
+    
+    
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    width: 650px ;
+    height: 800px;
+}
+
+
+form input{
+    color:  #B7B7B7;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 30px;
+    
+    font-size: 20px;
+    background: transparent;
+    border:2px solid black;
+
+}
+
+
+form textarea{
+    color: #B7B7B7;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border:2px solid black;
+
+}
+
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background: transparent;
+    border: 4px solid black;
+    color: black;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    
+    color: black;
+    border-radius: 16px;
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
