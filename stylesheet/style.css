@@ -19,6 +19,8 @@ body{
     left: 275px;
     top: 112px;
     
+    margin-right: 10px;
+    display: inline-block;
 }
 .logo{
     
@@ -144,6 +146,25 @@ body{
     color: #FFFFFF;
     text-align: center;
 }
+
+.namesbox2{
+    background: #2EA4A4;
+    width: 20% !important; 
+    border-radius: 45px;
+    padding: 24px;
+    
+}
+.text-box2{
+    background: #d9d9d9;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.text-center2{
+    text-align: center;
+}
+
 .fundoazul {
     position: absolute;
     width: 735px;
@@ -167,16 +188,19 @@ body{
     line-height: 66px;
     color: #FFFFFF;
 }
+
 .container2 {
-    width: 100vw;;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    top: 10px;
 }
 .txt1{
     position: absolute;
-    width: 816px;
+    width: 50%;
     height: 558px;
     left: 542px;
     top: 2675px;
@@ -213,17 +237,16 @@ body{
     position: absolute;
     width: 390px;
     height: 234.15px;
-    left: 930px;
+    left: 840px;
     top: 3260px;
     background: url(../images/maosapertanod.jpg);
 }
 .txt2{
     position: absolute;
-    width: 761px;
+    width: 50%;
     height: 142px;
     left: 126px;
     top: 3300px;
-    
     font-family: 'Sedan';
     font-style: normal;
     font-weight: 400;
@@ -232,7 +255,6 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #000000;
 }
 .arrow2{
@@ -256,7 +278,7 @@ body{
 }
 .txt3{
     position: absolute;
-    width: 790px;
+    width: 50%;
     height: 152px;
     left: 550px;
     top: 3760px;
@@ -283,13 +305,13 @@ body{
     position: absolute;
     width: 393px;
     height: 237px;
-    left: 950px;
+    left: 840px;
     top: 4110px;
     background: url(../images/mundo.jpg);
 }
 .txt5{
     position: absolute;
-    width: 740px;
+    width: 50%;
     height: 242px;
     left: 106px;
     top: 4108px;
