@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    width: 100%;
 }
 /* =============================================================SECÇÃO 1==================================================================*/
 .navbar{
@@ -27,12 +28,14 @@ body{
 }
 .nome{
     margin: 0;
+    width: 700px;
     font-family: 'Karma';
     font-style: normal;
     font-weight: 700px;
     font-size: 128px;
     line-height: 208px;
     color: #FFFFFF;
+    
     
     
 }
@@ -425,4 +428,16 @@ form button:hover{
     color: black;
     border-radius: 16px;
 
+}
+
+/* respoinve */
+
+@media(max-width: 768px) {
+    .container{
+        padding: 20px 0;
+    }
+
+    .circle{
+        padding: 0 10px;
+    }
 }
